@@ -1,0 +1,97 @@
+/* Reset and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  
+  /* Navbar Styles */
+  #navbar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+  }
+  
+  #navbar header {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+  }
+  
+  .nav-link:hover {
+    background-color: #444;
+  }
+  
+  /* Main Documentation Styles */
+  #main-doc {
+    margin-left: 220px;
+    padding: 20px;
+    width: 100%;
+    line-height: 1.6;
+  }
+  
+  .main-section {
+    margin-bottom: 20px;
+  }
+  
+  .main-section header {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #d63384;
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #navbar {
+      position: static;
+      width: 100%;
+    }
+  
+    #main-doc {
+      margin-left: 0;
+    }
+  }
+  
